@@ -1,0 +1,40 @@
+footer{
+    display: flex; 
+    flex-direction: row;
+    background-color: #255;
+    padding: 1rem;
+    font-family: dosis;
+    justify-content: center;
+}
+
+section{
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-child{
+    margin-right: 0px;
+}
+
+h2{
+    font: white;
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    letter-spacing: .2rem
+}
+
+a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    border-bottom: 1px solid white;
+    margin-bottom: 9px;
+}

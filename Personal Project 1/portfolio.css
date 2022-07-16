@@ -1,0 +1,127 @@
+
+      span,
+      a {
+        font-size: 35px;
+        margin: 0px;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      a {
+        text-decoration: none;
+        color: grey;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      a:hover {
+        color: white;
+        text-decoration: underline;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      .header {
+        background-color: lightseagreen;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        position: relative;
+        color: white;
+        font-family: "Barlow Condensed", sans-serif;
+        top: 0;
+      }
+      .navigation {
+        background-color: lightseagreen;
+        position: absolute;
+        right: 15px;
+        color: white;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+      footer {
+        text-align: center;
+        font-size: 150px;
+        background-color: lightseagreen;
+        bottom: 0;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        box-shadow: 10px 10px 10px grey;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      .mom {
+        background-color: blue;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        width: 100%;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+      .child {
+        background-color: powderblue;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        width: auto;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      img {
+        float: right;
+        width: 100px;
+        position: relative;
+        margin: 20px;
+      }
+
+      h1 {
+        font-size: 35px;
+        border-bottom: 5px dotted black;
+        margin: 0px;
+        padding: 0px;
+        display: inline;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      h2 {
+        font-size: 40px;
+        display: inline;
+        position: relative;
+        text-align: left;
+        border-bottom: 5px solid black;
+        margin: 10px;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+
+      h3 {
+        font-size: 35px;
+        font-family: fantasy;
+      }
+
+      p {
+        font-size: 20px;
+        margin: 0px;
+        display: block;
+        position: relative;
+      }
+
+      .whitebg {
+        background-color: white;
+        border: 5px dotted black;
+        margin: 15px;
+      }
+
+      .lorem {
+        margin: 15px;
+      }
+
+      .icon {
+        border-radius: 50%;
+        float: left;
+        position: fixed;
+        margin: 5px;
+        width: 35px;
+      }
+
+      .current {
+        border-bottom: 2px solid black;
+      }
+    

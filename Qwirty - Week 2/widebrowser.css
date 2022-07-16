@@ -1,0 +1,117 @@
+/* Site-wide */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  /* Header */
+  header{
+      background-color: darkgray;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+align-items: center;
+      padding: 20px;
+
+  }
+  .logo{
+      justify-content: flex-start;
+      font-size: 35px;
+  }
+
+  a{
+      color: white;
+      font-size: 25px;
+      margin: 10px;
+      text-decoration:none;
+  }
+
+  .hamburger{
+      display: none;
+  }
+  /* Main */
+ 
+  main{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 20px;
+      height: 100%;
+   justify-content: center;
+      font-size: 25px;
+       /* does NOT need a width, otherwise you are restricting the cards too much */
+  }
+  
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 20px;
+    border: 5px black solid;
+    width: 300px;
+    height: 450px;
+    
+}
+
+h3{
+    background-color: powderblue;
+    font-weight: bold;
+    width: 100%;
+    height: 10%;
+}
+
+p{
+    background-color: lightgrey;
+    width: 100%;
+    height: 90%;
+}
+
+  /* Footer */
+  
+  footer{
+background-color: darkgray;
+text-align: center;
+font-size: 30px;
+padding: 10px;
+position: fixed;
+bottom: 0;
+width: 100%;
+margin-top: 20px;
+height: 50px;
+
+
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px){
+      nav.site{
+display: none;
+      }
+
+      h3, p{
+          font-size: 30px;
+      }
+
+      header a{
+        display: none;  
+      }
+
+      .hamburger{
+          display: inline;
+         
+      }
+
+        .card{
+            width: 90%;
+        }
+  }
+
+
+

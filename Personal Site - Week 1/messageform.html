@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Message Form</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+      .message-form {
+        width: 650px;
+        font-family: Arial;
+        display: block;
+        border: 5px solid black;
+        background-color: lightgray;
+      }
+
+      .message-form-inputs > * {
+        display: block;
+        width: 100%;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 15px;
+      }
+
+      .message-form-actions {
+        padding: 15px;
+        background: darkgrey;
+        display: block;
+        overflow: auto;
+      }
+      button {
+        float: right;
+        background: skyblue;
+        padding: 5px;
+        margin: 5px;
+        border: none;
+        box-shadow: 10px 10px 10px grey;
+        color: white;
+      }
+      button:hover {
+        color: black;
+      }
+
+      button,
+      .material-icons small {
+        margin-left: 10px;
+        font-size: 16px;
+        font-family: fantasy;
+      }
+
+      #message-title,
+      #message-content {
+        background-color: white;
+        padding: 0px;
+        width: 450px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="message-form">
+      <div class="message-form-inputs">
+        <label for="message-title">Title</label>
+        <input id="message-title" type="text" name="title" />
+        <label for="message-content">Content</label>
+        <textarea
+          id="message-content"
+          name="content"
+          cols="60"
+          rows="15"
+        ></textarea>
+      </div>
+      <div class="message-form-actions">
+        <button>
+          <span>SEND</span>
+          <i class="material-icons small">send</i>
+        </button>
+        <button>
+          <span>ATTACH</span>
+          <i class="material-icons small">attach_file</i>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
